@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'topics',
+    'ruian',
 ]
 
 MIDDLEWARE = [
@@ -79,9 +79,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     },
-    'lite': {
+    'ruian': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'lite.sqlite3',
+        'NAME': BASE_DIR / 'ruian.sqlite3',
     }
 }
 
